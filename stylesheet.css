@@ -1,0 +1,52 @@
+header{
+    background-color: navy;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    flex: auto;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+h3{
+    width: fit-content;
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+body{
+    background-image: linear-gradient(white, navy);
+}
+
+.profilePic{
+    float: right;
+    border-radius: 50% 20px 20px 50%;
+}
+
+.pic{
+    float: left;
+    border-radius: 25px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.info{
+    background-color: lightgoldenrodyellow;
+    min-height: 150px;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    text-align: center;
+    width: fit-content;
+    padding: 25px;
+    border-radius: 25px;
+}

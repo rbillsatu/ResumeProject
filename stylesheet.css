@@ -21,7 +21,7 @@ body{
 
 .profilePic{
     float: right;
-    border-radius: 50% 20px 20px 50%;
+    border-radius: 20px;
 }
 
 .pic{
@@ -32,11 +32,17 @@ body{
 }
 
 .info{
+    display: flex;
+    justify-content: space-evenly;
     background-color: lightgoldenrodyellow;
     min-height: 150px;
     margin: 25px;
     padding: 25px;
     border-radius: 20px;
+}
+
+ol ol{
+    list-style-type: lower-alpha;
 }
 
 footer{
